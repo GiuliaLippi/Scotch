@@ -355,6 +355,7 @@
 "Assets/C#/CubeMov.cs"
 "Assets/C#/gestoreOstacoli.cs"
 "Assets/C#/PlayerMov.cs"
+"Assets/C#/PlayerMov2.cs"
 -langversion:9.0
 
 /deterministic
