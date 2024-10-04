@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMov2 : MonoBehaviour
 {
      public float speed = 6f;         // Velocità del Player
-    public float jumpForce = 5f;     // Forza del salto
+    public float jumpForce = .01f;     // Forza del salto
     public float gravityMultiplier = 2f; // Moltiplicatore della gravità
 
     private Rigidbody rb;
@@ -14,11 +14,18 @@ public class PlayerMov2 : MonoBehaviour
     // Controllo per sapere se è a terra
     public Transform groundCheck;
     public float groundDistance = 0.4f;
-    public LayerMask groundMask;
+    public int layerToInclude;
+    public int layerMask;
+    
 
     void Start()
     {
+         layerToInclude = LayerMask.NameToLayer("Ground");
+
+         layerMask = 1 << layerToInclude;
+         
         // Prendiamo il Rigidbody dal Player
+        groundCheck = GetComponent<Transform>();
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true; // Evitiamo la rotazione del Player causata da collisioni
     }
@@ -26,7 +33,7 @@ public class PlayerMov2 : MonoBehaviour
     void Update()
     {
         // Controlliamo se il Player è a terra
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        isGrounded  = Physics.Raycast(groundCheck.position, Vector3.down, 1f, layerMask);
 
         // Movimento orizzontale
         float x = Input.GetAxis("Horizontal");
