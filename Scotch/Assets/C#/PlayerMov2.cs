@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMov2 : MonoBehaviour
 {
      public float speed = 6f;         // Velocità del Player
-    public float jumpForce = 7.5f;     // Forza del salto
+    public float jumpForce = 8.5f;     // Forza del salto
     public float gravityMultiplier = 2f; // Moltiplicatore della gravità
 
     private Rigidbody rb;

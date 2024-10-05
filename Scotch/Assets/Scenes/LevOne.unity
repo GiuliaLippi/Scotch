@@ -2660,8 +2660,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 16.037777, y: 3.8719997, z: 2.467864}
-  m_Center: {x: -7.3167458, y: 1.4359999, z: 0.32659197}
+  m_Size: {x: 16.037777, y: 3.8719997, z: 2.104745}
+  m_Center: {x: -7.3167458, y: 1.4359999, z: 0.07957411}
 --- !u!1001 &944779089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3686,7 +3686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2732684518155842968, guid: c73ae6621f8832748a78dfb8aec6dd12, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2732684518155842968, guid: c73ae6621f8832748a78dfb8aec6dd12, type: 3}
       propertyPath: m_TagString
@@ -3698,7 +3698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3361834574544056098, guid: c73ae6621f8832748a78dfb8aec6dd12, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13101196
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 3361834574544056098, guid: c73ae6621f8832748a78dfb8aec6dd12, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3774,8 +3774,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.68417376, y: 1.1187863, z: 0.3984728}
-  m_Center: {x: 0.021914631, y: 0.5321336, z: -0.04522848}
+  m_Size: {x: 0.68417376, y: 0.9855797, z: 0.3984728}
+  m_Center: {x: 0.021914631, y: 0.5987369, z: -0.04522848}
 --- !u!54 &1436553592
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3816,7 +3816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  jumpForce: 7.5
+  jumpForce: 8.5
   gravityMultiplier: 2
   groundCheck: {fileID: 0}
   groundDistance: 0.4
