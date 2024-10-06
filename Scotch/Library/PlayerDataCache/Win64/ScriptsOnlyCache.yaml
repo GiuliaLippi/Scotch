@@ -14,7 +14,7 @@ ScriptsOnlyBuild:
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/LevOne.unity:
+    Assets/Scenes/LevTwo.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -72,16 +72,10 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 8ed47ec180011710941d05df085e437c
+      Hash: 3381a379eab61632656c0aba297cefaa
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMov2
-  - hash:
-      serializedVersion: 2
-      Hash: b6e5e5fa218b4c7dc2984bf5cda8f7dc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMov
   - hash:
       serializedVersion: 2
       Hash: f109b311c5518bc8f6008ff8c38cc199
@@ -90,11 +84,11 @@ ScriptsOnlyBuild:
     className: gestoreOstacoli
   - hash:
       serializedVersion: 2
-      Hash: 743185c29a8ff5835af58a92bc8c5fc1
+      Hash: b76b9e2d35e87b62196cc2f78b90b67c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CubeMov
   platform: 19
   scenePathNames:
-  - Assets/Scenes/LevOne.unity
+  - Assets/Scenes/LevTwo.unity
   playerPath: D:/Build Scotch/Scotch.exe

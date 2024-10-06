@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevOne.unity
     guid: e2079512371dfe1498e4425ecab88a65
+  - enabled: 1
+    path: Assets/Scenes/LevTwo.unity
+    guid: 0c5df898772c9d84eae009250a20e2fb
   m_configObjects: {}

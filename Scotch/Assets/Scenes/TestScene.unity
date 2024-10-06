@@ -252,6 +252,7 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: 0}
   endPos: {x: 10, y: 5, z: -3}
   speed: 5
+  danno: 1
 --- !u!65 &1325707914
 BoxCollider:
   m_ObjectHideFlags: 0
