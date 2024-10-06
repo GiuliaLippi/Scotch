@@ -1,0 +1,100 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp:
+    - CubeMov
+    Assembly-CSharp.dll:
+    - PlayerMov2
+    - gestoreOstacoli
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+  serializedClasses: {}
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Scenes/LevOne.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 6910}
+    - Class: 114
+      Script: {instanceID: 7078}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed47ec180011710941d05df085e437c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMov2
+  - hash:
+      serializedVersion: 2
+      Hash: b6e5e5fa218b4c7dc2984bf5cda8f7dc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMov
+  - hash:
+      serializedVersion: 2
+      Hash: f109b311c5518bc8f6008ff8c38cc199
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gestoreOstacoli
+  - hash:
+      serializedVersion: 2
+      Hash: 743185c29a8ff5835af58a92bc8c5fc1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CubeMov
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/LevOne.unity
+  playerPath: D:/Build Scotch/Scotch.exe
