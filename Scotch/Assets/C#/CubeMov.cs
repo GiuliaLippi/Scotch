@@ -8,6 +8,7 @@ public class CubeMov : MonoBehaviour
     public Vector3 endPos = new Vector3(10, 5, -3);
     public float speed = 5f;
     private bool movingToEnd= true;
+    public float danno = 1f;
 
     void Update()
     {
@@ -23,6 +24,16 @@ public class CubeMov : MonoBehaviour
             movingToEnd = false;
             Destroy(gameObject);
         }
+    }
 
+    void OnCollisionEnter(Collision other)   
+
+    {
+    if (other.gameObject.CompareTag("Player"))
+        {
+           
+            Debug.Log("Touching object with Player");
+            other.gameObject.GetComponent<PlayerMov2>().doDmg(danno);
+        }
     }
 }

@@ -16,6 +16,8 @@ public class PlayerMov2 : MonoBehaviour
     public float groundDistance = 0.4f;
     public int layerToInclude;
     public int layerMask;
+
+    public float vita = 3;
     
 
     void Start()
@@ -55,5 +57,16 @@ public class PlayerMov2 : MonoBehaviour
         {
             rb.AddForce(Vector3.down * gravityMultiplier, ForceMode.Acceleration);
         }
+    }
+
+      public void setVita(float vita)
+    {
+      this.vita = vita;
+    }
+
+    public void doDmg (float danno)
+    {
+      if (danno > 0)
+       setVita(vita-danno);
     }
 }
