@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3806257673555545417
+--- !u!1 &6035562518051799469
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 646419435001355733}
-  - component: {fileID: 4576112467072144631}
-  - component: {fileID: 7565505981131878372}
-  - component: {fileID: 1456875754455598938}
-  - component: {fileID: 4237388400552343742}
-  - component: {fileID: -1418993204082018609}
+  - component: {fileID: 5997767630710508529}
+  - component: {fileID: 4022697717544779708}
+  - component: {fileID: 8990667739811893574}
+  - component: {fileID: 1261018666964151896}
+  - component: {fileID: 3872592798510143025}
   m_Layer: 0
   m_Name: Sfera2_Veloce
   m_TagString: Untagged
@@ -21,36 +20,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &646419435001355733
+--- !u!4 &5997767630710508529
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
+  m_GameObject: {fileID: 6035562518051799469}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.73669225, y: -0.2740574, z: 12.538168}
+  m_LocalPosition: {x: -0.94, y: 2.81, z: -12.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4576112467072144631
+--- !u!33 &4022697717544779708
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
+  m_GameObject: {fileID: 6035562518051799469}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &7565505981131878372
+--- !u!23 &8990667739811893574
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
+  m_GameObject: {fileID: 6035562518051799469}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,13 +85,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1456875754455598938
+--- !u!135 &1261018666964151896
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
+  m_GameObject: {fileID: 6035562518051799469}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -107,40 +106,19 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4237388400552343742
+--- !u!114 &3872592798510143025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
+  m_GameObject: {fileID: 6035562518051799469}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e5b01f3509c7b3544b450319bc982e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startPos: {x: -0.94, y: 2.81, z: -0.65}
-  endPos: {x: -0.94, y: 2.81, z: -12.69}
+  endPos: {x: -0.94, y: 2.81, z: -12.08}
   speed: 7
-  danno: 1
---- !u!65 &-1418993204082018609
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3806257673555545417}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  danno: 2
