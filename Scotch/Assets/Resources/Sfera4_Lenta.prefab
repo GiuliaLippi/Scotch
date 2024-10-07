@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b01f3509c7b3544b450319bc982e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startPos: {x: 6.72, y: 2.53, z: -0.6}
-  endPos: {x: 6.72, y: 2.53, z: -11.24}
+  startPos: {x: 6.72, y: 2.81, z: -0.6}
+  endPos: {x: 6.72, y: 2.81, z: -11.24}
   speed: 5
   danno: 1
 --- !u!65 &404008587504151111
