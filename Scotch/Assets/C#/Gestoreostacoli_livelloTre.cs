@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Gestoreostacoli_livelloTre : MonoBehaviour
 {
@@ -95,6 +96,9 @@ void Start()
 
 void Update() 
 {
-
+if(Input.GetKeyDown("r")) SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+if(Input.GetKeyDown("1")) SceneManager.LoadScene("LevOne");
+if(Input.GetKeyDown("2")) SceneManager.LoadScene("LevTwo");
+if(Input.GetKeyDown("3")) SceneManager.LoadScene("LevThree");
 }
 }

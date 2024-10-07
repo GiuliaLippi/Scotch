@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 19240
+  controlID: 19816
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19241
+  controlID: 19817
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19232
+  controlID: 19809
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -128,8 +128,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 556
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -172,9 +172,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6c760000
+      m_SelectedIDs: b24e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 522fffffa62fffffcc31ffff36e5ffffcee7ffff10eaffff96f7ffff40fbffff
+      m_ExpandedIDs: b6a4faff80c9fbff62f5feffa61cffff522fffffa62fffffcc31ffff36e5ffffcee7ffff10eaffff96f7ffff40fbfffffca10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -289,7 +289,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -315,7 +315,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -479,16 +479,16 @@ MonoBehaviour:
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
+    - dockPosition: 0
+      containerId: Floating
+      floating: 1
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: -515, y: -217}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: Scene View/Particles
-      index: 6
+      index: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -527,7 +527,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
-      index: 7
+      index: 6
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -555,9 +555,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.2000067, y: 1.871274, z: 7.7929325}
+    m_Target: {x: -0.19834286, y: -3.5940084, z: 13.906086}
     speed: 2
-    m_Value: {x: 2.2000067, y: 1.871274, z: 7.7929325}
+    m_Value: {x: -0.19834286, y: -3.5940084, z: 13.906086}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -603,13 +603,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.25817105, y: 0.02165444, z: -0.0060977773, w: 0.9654327}
+    m_Target: {x: 0.22476265, y: -0.013216836, z: 0.0027138237, w: 0.9739121}
     speed: 2
-    m_Value: {x: -0.25817108, y: -0.02165444, z: 0.0060977777, w: -0.96543276}
+    m_Value: {x: 0.22485203, y: -0.013222092, z: 0.0027149029, w: 0.97429943}
   m_Size:
-    m_Target: 12.239907
+    m_Target: 15.939548
     speed: 2
-    m_Value: 12.239907
+    m_Value: 15.939548
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -728,7 +728,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 19242
+  controlID: 19818
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -778,7 +778,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 629
-    width: 976
+    width: 1055
     height: 362
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -801,7 +801,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Hovl Studio/Procedural fire/Demo scene
+    - Assets/C#
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -809,16 +809,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Hovl Studio/Procedural fire/Demo scene
+  - Assets/C#
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\user\Documents\GitHub\Scotch\Scotch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 16760000
-    m_LastClickedID: 30230
-    m_ExpandedIDs: 00000000a4430000fa750000fe75000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: d6430000
+    m_LastClickedID: 17366
+    m_ExpandedIDs: 00000000a4430000fa750000fe750000387b00000e9500001a96000022960000369600009a9e00002cb2000030b2000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -871,10 +871,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6c760000
-    m_LastClickedInstanceID: 30316
+    m_SelectedInstanceIDs: b24e0000
+    m_LastClickedInstanceID: 20146
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000326100003e6100003a610000da590000
+    m_ExpandedInstanceIDs: c6230000326100003e6100003a610000da5900000a7c0000727c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1045,8 +1045,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
