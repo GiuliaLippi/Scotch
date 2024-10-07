@@ -3,18 +3,20 @@ ScriptsOnlyBuild:
     Assembly-CSharp:
     - CubeMov
     Assembly-CSharp.dll:
+    - Gestoreostacoli_livelloTre
     - PlayerMov2
-    - gestoreOstacoli
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
   serializedClasses: {}
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/LevTwo.unity:
+    Assets/Scenes/LevThree.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -56,12 +58,14 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4912}
+      Script: {instanceID: 1512}
     - Class: 114
-      Script: {instanceID: 6910}
+      Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 7078}
+      Script: {instanceID: 20146}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -88,7 +92,19 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CubeMov
+  - hash:
+      serializedVersion: 2
+      Hash: 4bbaf56f954337a2d73cd5782bc64cf6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GestoreOstacoli_primoLivello
+  - hash:
+      serializedVersion: 2
+      Hash: 6ca7d7fac55d11f8a8d032b1b6d7c598
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gestoreostacoli_livelloTre
   platform: 19
   scenePathNames:
-  - Assets/Scenes/LevTwo.unity
+  - Assets/Scenes/LevThree.unity
   playerPath: D:/Build Scotch/Scotch.exe

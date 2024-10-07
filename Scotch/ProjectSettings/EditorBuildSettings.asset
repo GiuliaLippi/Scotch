@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LevOne.unity
     guid: e2079512371dfe1498e4425ecab88a65
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LevTwo.unity
     guid: 0c5df898772c9d84eae009250a20e2fb
+  - enabled: 1
+    path: Assets/Scenes/LevThree.unity
+    guid: 5f45aaa7cf9295a49957da2f29467abc
   m_configObjects: {}
